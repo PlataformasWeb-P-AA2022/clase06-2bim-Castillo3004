@@ -29,7 +29,7 @@ admin.site.register(Estudiante, EstudianteAdmin)
 
 # Se crea una clase que hereda
 # de ModelAdmin para el modelo
-# NumeroTelefonico
+# NumeroTelefonic
 class NumeroTelefonicoAdmin(admin.ModelAdmin):
     # listado de atributos que se mostrará
     # por cada registro
